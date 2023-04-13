@@ -1,0 +1,16 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "no-descending-specificity": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "selector-class-pattern": null,
+    "scss/double-slash-comment-whitespace-inside": null,
+    "property-no-unknown": null,
+    "no-empty-source": null,
+
+    "keyframes-name-pattern": null,
+    "property-no-vendor-prefix": null,
+    "scss/at-mixin-pattern": null,
+    "scss/dollar-variable-pattern": null
+  }
+}

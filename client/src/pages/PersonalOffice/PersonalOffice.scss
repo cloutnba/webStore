@@ -1,0 +1,43 @@
+@use './src/styles/mixins';
+
+@mixin font-ofice {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-transform: uppercase;
+  }
+
+.tab-panel{
+    margin-top: 30px
+}
+
+
+.header-personal-office {
+  @include mixins.titleStyles;
+
+  padding-bottom: 30px;
+
+  .title_contrast {
+    @include mixins.liner-gradient-tile;
+  }
+}
+
+ .MuiTabs-flexContainer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+
+.logout{
+  @include mixins.comparisonStyle;
+
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #75758a;
+}
+

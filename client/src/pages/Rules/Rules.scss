@@ -1,0 +1,76 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.rules-paralax{
+    background: url("./img/rules.png") center/cover no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+    box-shadow: rgb(14 30 37 / 12%) 0 2px 4px 0, rgb(14 30 37 / 32%) 0 2px 16px 0;
+    min-height: 400px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.our-rules{
+    width: 1000px; 
+    margin: 0 auto;
+
+    &-text{
+    font-weight: 700;
+    font-size: 100px;
+    color: transparent;
+    background-color: #040404; 
+     text-shadow: 0 2px 3px rgb(40 40 40 / 75%); 
+    -webkit-background-clip: text;
+    width: fit-content;
+    padding: 30px;
+    border: 1px solid black;
+
+    @media (max-width: 690px) {
+        border: none;
+        text-align: center;
+    } 
+    }
+}
+
+
+.rules{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding: 15px;
+
+        &-header{
+    @include mixins.titleStyles;
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(0 0 0 / 60%);
+    text-shadow: 2px 8px 6px rgb(0 0 0 / 20%),
+                     0 -5px 35px rgb(255 255 255 / 30%);
+    text-align: center;
+}
+
+        &-description{
+    @include mixins.comparisonStyle;
+
+    text-shadow: 2px 8px 6px rgb(0 0 0 / 20%),
+    0 -5px 35px rgb(255 255 255 / 30%);
+    color: variables.$border;
+    text-align: center;
+    line-height: 30px;
+
+    &-list{
+        text-shadow: 2px 8px 6px rgb(0 0 0 / 20%),
+        0 -5px 35px rgb(255 255 255 / 30%);
+        color: variables.$border;
+        line-height: 30px;
+    }
+}
+}

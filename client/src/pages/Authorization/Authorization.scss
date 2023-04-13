@@ -1,0 +1,37 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.form-block {
+  font-family: Ubuntu, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  min-width: 360px;
+  max-width: 360px;
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__btn {
+    justify-self: center;
+  }
+
+  .login_reminder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: variables.$light-green;
+    cursor: pointer;
+  }
+
+  &__error-notification {
+    color: variables.$error;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+}

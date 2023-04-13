@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+cd /path/to/client || exit
+npx stylelint src/**/*.scss
+npx eslint src/**/*.jsx
+npx eslint src/**/*.js
+npm test
+

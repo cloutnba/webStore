@@ -1,0 +1,64 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.about-page{
+    margin-top: 150px;
+
+    &__header{
+        @include mixins.titleStyles;
+
+        margin-top: 100px;
+        margin-bottom: 50px;
+        color: rgb(0 0 0 / 60%);
+        text-shadow: 2px 8px 6px rgb(0 0 0 / 20%),
+                         0 -5px 35px rgb(255 255 255 / 30%);
+        text-align: center;
+
+        &--span{
+            @include mixins.liner-gradient-tile; 
+        }
+
+        &--sinse{
+            font-size: 20px;
+            color: rgb(152 152 152);
+        }
+        
+    }
+
+    &__description{
+        @include mixins.comparisonStyle;
+
+        text-shadow: 2px 8px 6px rgb(0 0 0 / 20%),
+        0 -5px 35px rgb(255 255 255 / 30%);
+        color: variables.$border;
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+.block-partners-logo{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 60px;
+
+    @media (max-width: 860px) {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    
+
+}
+
+.size-logo-mobille{
+    @media (max-width: 435px) {
+            width: 250px;
+            height: 50px; 
+
+    }
+    
+
+}

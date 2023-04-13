@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PersonalOffice snapshot PersonalOffice 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg main-list css-1oqqzyl-MuiContainer-root"
+      >
+        <div>
+          <div
+            aria-hidden="true"
+            class="MuiBackdrop-root css-1mgwyik-MuiBackdrop-root"
+            style="opacity: 0.7; background-color: white; position: absolute; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorInherit css-62e83j-MuiCircularProgress-root"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div
+          class="breadcrumbs__wrapper"
+        >
+          <a
+            class="breadcrumbs__link"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="breadcrumbs__link"
+            href="/personal-office"
+          >
+            Personal office
+          </a>
+        </div>
+        <p
+          class="header-personal-office"
+        >
+          Personal 
+          <span
+            class="title_contrast"
+          >
+            office
+          </span>
+        </p>
+        <a
+          href="/"
+        >
+          <div
+            class="logout MuiBox-root css-0"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ge0528-MuiSvgIcon-root"
+              data-testid="LogoutIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m17 7-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z"
+              />
+            </svg>
+             
+            <p>
+              Exit
+            </p>
+          </div>
+        </a>
+        <div
+          class="MuiBox-root css-1gsv261"
+        >
+          <div
+            class="MuiTabs-root tab-list css-sx6jj0-MuiTabs-root"
+          >
+            <div
+              class="MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller"
+              style="overflow: hidden; margin-bottom: 0px;"
+            >
+              <div
+                class="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+                role="tablist"
+              >
+                <button
+                  aria-controls="mui-p-74737-P-1"
+                  aria-selected="true"
+                  class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                  id="mui-p-74737-T-1"
+                  role="tab"
+                  tabindex="0"
+                  type="button"
+                >
+                  Data
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <button
+                  aria-controls="mui-p-74737-P-2"
+                  aria-selected="false"
+                  class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                  id="mui-p-74737-T-2"
+                  role="tab"
+                  tabindex="-1"
+                  type="button"
+                >
+                  Password
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <button
+                  aria-controls="mui-p-74737-P-3"
+                  aria-selected="false"
+                  class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                  id="mui-p-74737-T-3"
+                  role="tab"
+                  tabindex="-1"
+                  type="button"
+                >
+                  Orders
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+              <span
+                class="MuiTabs-indicator css-cgc5sg-MuiTabs-indicator"
+                style="left: 0px; width: 0px;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="mui-p-74737-T-1"
+          class="MuiTabPanel-root tab-panel css-13xfq8m-MuiTabPanel-root"
+          id="mui-p-74737-P-1"
+          role="tabpanel"
+        >
+           
+        </div>
+        <div
+          aria-labelledby="mui-p-74737-T-2"
+          class="MuiTabPanel-root tab-panel css-13xfq8m-MuiTabPanel-root"
+          hidden=""
+          id="mui-p-74737-P-2"
+          role="tabpanel"
+        />
+        <div
+          aria-labelledby="mui-p-74737-T-3"
+          class="MuiTabPanel-root tab-panel css-13xfq8m-MuiTabPanel-root"
+          hidden=""
+          id="mui-p-74737-P-3"
+          role="tabpanel"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg main-list css-1oqqzyl-MuiContainer-root"
+    >
+      <div>
+        <div
+          aria-hidden="true"
+          class="MuiBackdrop-root css-1mgwyik-MuiBackdrop-root"
+          style="opacity: 0.7; background-color: white; position: absolute; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorInherit css-62e83j-MuiCircularProgress-root"
+            role="progressbar"
+            style="width: 40px; height: 40px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div
+        class="breadcrumbs__wrapper"
+      >
+        <a
+          class="breadcrumbs__link"
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          class="breadcrumbs__link"
+          href="/personal-office"
+        >
+          Personal office
+        </a>
+      </div>
+      <p
+        class="header-personal-office"
+      >
+        Personal 
+        <span
+          class="title_contrast"
+        >
+          office
+        </span>
+      </p>
+      <a
+        href="/"
+      >
+        <div
+          class="logout MuiBox-root css-0"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ge0528-MuiSvgIcon-root"
+            data-testid="LogoutIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m17 7-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z"
+            />
+          </svg>
+           
+          <p>
+            Exit
+          </p>
+        </div>
+      </a>
+      <div
+        class="MuiBox-root css-1gsv261"
+      >
+        <div
+          class="MuiTabs-root tab-list css-sx6jj0-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-controls="mui-p-74737-P-1"
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="mui-p-74737-T-1"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Data
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="mui-p-74737-P-2"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="mui-p-74737-T-2"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Password
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="mui-p-74737-P-3"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="mui-p-74737-T-3"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Orders
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-cgc5sg-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="mui-p-74737-T-1"
+        class="MuiTabPanel-root tab-panel css-13xfq8m-MuiTabPanel-root"
+        id="mui-p-74737-P-1"
+        role="tabpanel"
+      >
+         
+      </div>
+      <div
+        aria-labelledby="mui-p-74737-T-2"
+        class="MuiTabPanel-root tab-panel css-13xfq8m-MuiTabPanel-root"
+        hidden=""
+        id="mui-p-74737-P-2"
+        role="tabpanel"
+      />
+      <div
+        aria-labelledby="mui-p-74737-T-3"
+        class="MuiTabPanel-root tab-panel css-13xfq8m-MuiTabPanel-root"
+        hidden=""
+        id="mui-p-74737-P-3"
+        role="tabpanel"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

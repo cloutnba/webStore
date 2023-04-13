@@ -1,0 +1,129 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.comparison-container__wrapper {
+  position: relative;
+  margin: 0 auto;
+  overflow-x: scroll;
+  min-width: 345px;
+  padding-bottom: 80px;
+}
+
+.img-scalle{
+  max-width: 100%;
+  height: 150px;
+  @media (max-width: 880px) {
+    height: 100px;
+  }
+}
+
+.comparison-table__delete {
+  cursor: pointer;
+  position: absolute;
+  top: 1px;
+  margin-left: 140px;
+  margin-top: -1px;
+}
+
+.comparison-table {
+  min-width: 345px;
+
+  tr > td,
+  tr > .table_th {
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  }
+
+  .table_th {
+    border-bottom: 1px solid variables.$light-border;
+  }
+
+  .table_th[scope='row'] {
+    max-width: 170px;
+    color: variables.$border;
+    text-align: left;
+    padding-left: 20px;
+    @include mixins.comparisonStyle;
+  }
+
+  tr {
+    @include mixins.comparisonStyle;
+    border-bottom: 1px solid variables.$light-border;
+    color: variables.$black;
+    position: relative;
+
+    &:nth-child(1) {
+      border-bottom: 1px solid variables.$light-border;
+      box-shadow: variables.$box-shadow;
+    }
+
+    &.condition {
+      font-size: 20px;
+    }
+
+    &.colors span {
+      height: 20px;
+      width: 20px;
+      display: inline-block;
+      margin-right: 5px;
+      border-radius: 100%;
+    }
+  }
+
+  .comparison-table__thead {
+    width: 100%;
+
+    .table_th {
+      color: variables.$black;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      min-width: 170px;
+      min-height: 150px;
+    }
+  }
+}
+
+@media (min-width: 482px) and (max-width: 995.9px) {
+  .comparison-container__wrapper {
+    min-width: 482px;
+  }
+
+  .comparison-table__delete {
+    margin-left: 220px;
+  }
+
+  .comparison-table {
+    min-width: 482px;
+
+    .comparison-table__thead {
+      .table_th {
+        min-width: 250px;
+        min-height: 250px;
+      }
+    }
+  }
+}
+
+@media (min-width: 996px) {
+  .comparison-container__wrapper {
+    min-width: 996px;
+  }
+
+  .comparison-table__delete {
+    margin-left: 220px;
+  }
+
+  .comparison-table {
+    min-width: 996px;
+
+    .comparison-table__thead {
+      .table_th {
+        min-width: 250px;
+        min-height: 250px;
+      }
+    }
+  }
+}

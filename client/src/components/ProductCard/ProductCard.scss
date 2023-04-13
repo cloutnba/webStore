@@ -1,0 +1,148 @@
+@use 'src/styles/variables';
+
+@mixin font-list-items {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.list {
+  position: relative;
+  border: 1px solid variables.$light-border;
+  box-sizing: border-box;
+  width: 255px;
+  height: 100%;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: rgb(0 0 0 / 7%) 0 1px 2px, rgb(0 0 0 / 7%) 0 2px 4px, rgb(0 0 0 / 7%) 0 4px 8px,
+      rgb(0 0 0 / 7%) 0 8px 16px, rgb(0 0 0 / 7%) 0 16px 32px, rgb(0 0 0 / 7%) 0 32px 64px;
+    scale: (1.1);
+
+    @media (max-width: 600px) {
+      scale: none;
+    }
+  }
+
+  &__item {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    &--quantity{
+      &--multiply{
+        font-size: 12px;
+      }
+
+      font-family: Ubuntu, sans-serif;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 20px;
+      color: #75758a;
+      font-weight: 400;
+      margin-bottom: 20px;
+      display: flex;
+     
+    }
+
+    &--name {
+      @include font-list-items;
+
+      color: variables.$black;
+      line-height: 16px;
+      margin-bottom: 3px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &--img {
+      width: 170px;
+      height: 120px;
+      margin-bottom: 15px;
+
+      &--laptop {
+        height: 100%;
+        width: auto;
+      }
+    }
+
+    &--scales {
+      position: absolute; 
+      right: 15px;
+      top: 30px;
+      fill: darkgrey;
+      transition: 0.3s;
+
+      &:hover {
+        fill: variables.$green;
+        cursor: pointer;
+      }
+
+      &--curent {
+        fill: variables.$green;
+      }
+    }
+
+    &--favorite {
+      position: absolute;
+      right: 15px;
+      top: 78px;
+      fill: darkgrey;
+      transition: 0.3s;
+
+      &:hover {
+        fill: orange;
+        cursor: pointer;
+      }
+
+      &--curent {
+        fill: orange;
+      }
+    }
+
+    &--brand {
+      @include font-list-items;
+
+      color: variables.$border;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+
+    &--price {
+      @include font-list-items;
+
+      margin-bottom: 10px;
+
+      &--curent {
+        color: variables.$light-green;
+        font-size: 25px;
+      }
+
+      &--curent-new {
+        color: variables.$red;
+      }
+
+      &--previous {
+        color: variables.$border;
+        font-size: 18px;
+        font-weight: 400;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+        text-decoration: line-through;
+      }
+    
+    }
+  }
+}
+
+.out-of-stock{
+  opacity: 0.5 !important;
+}

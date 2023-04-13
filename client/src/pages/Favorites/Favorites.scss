@@ -1,0 +1,17 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.sector_favorites {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.favorites__title {
+  @include mixins.titleStyles;
+
+  padding-bottom: 30px;
+
+  .title_contrast {
+    @include mixins.liner-gradient-tile;
+  }
+}

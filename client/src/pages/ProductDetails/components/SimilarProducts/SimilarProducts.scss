@@ -1,0 +1,17 @@
+.similar-products {
+  &__container {
+    margin-bottom: 55px;
+  }
+
+  &__title {
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+
+    span {
+      color: #4ba123;
+    }
+  }
+}

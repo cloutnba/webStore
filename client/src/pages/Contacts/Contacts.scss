@@ -1,0 +1,57 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.all_container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 15px;
+
+  .map {
+    margin: auto;
+    display: contents;
+  }
+}
+
+.contacts {
+  padding: 20px;
+
+  .link_shop {
+    margin-top: 10px;
+    color: variables.$green;
+    text-decoration-line: underline;
+  }
+
+  .number_point {
+    background: variables.$linearGradient;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.card {
+  margin: 15px;
+}
+
+.contacts_header {
+  padding-left: 30px;
+  padding-top: 20px;
+  display: flex;
+  width: 105px;
+  height: 35px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+
+  @include mixins.titleStyles;
+
+  color: variables.$black;
+
+  .point_span {
+    @include mixins.liner-gradient-tile;
+  }
+}

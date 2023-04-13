@@ -1,0 +1,13 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.comparison-container__wrapper-title {
+  @include mixins.titleStyles;
+  color: variables.$black;
+  margin-bottom: 45px;
+}
+
+.comparison-container__wrapper-title-quantity {
+  @include mixins.titleStyles;
+  @include mixins.liner-gradient-tile;
+}

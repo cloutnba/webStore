@@ -1,0 +1,245 @@
+[33mcommit 0e3a3f9e2ef03ccc9faf4523553e486170c4d5d2[m[33m ([m[1;36mHEAD -> [m[1;32msort_product_filter_pagination[m[33m)[m
+Author: Bohdan Kletskyi <underwater3499@gmail.com>
+Date:   Tue Feb 21 20:57:05 2023 +0200
+
+    work_with_filter
+
+[33mcommit dbf57ed1860b1bd6c2025a04b8a6b592d816faab[m[33m ([m[1;31morigin/filter_main_list_products[m[33m, [m[1;32mfilter_main_list_products[m[33m, [m[1;32mdevelop[m[33m)[m
+Merge: 6c0a819 f6453f7
+Author: Bohdan Kletskyi <underwater3499@gmail.com>
+Date:   Tue Feb 21 13:30:39 2023 +0200
+
+    corect_file_with_pull
+
+[33mcommit 6c0a8194bb90141609389c889a51164461d5b78e[m
+Author: Bohdan Kletskyi <underwater3499@gmail.com>
+Date:   Tue Feb 21 13:20:36 2023 +0200
+
+    addCheckbox_component
+
+[33mcommit f6453f79f724596e4f26783962bdea929f7afb84[m
+Merge: d8b4d55 d4af66c
+Author: Oksana <70908081+OksiFoxy93@users.noreply.github.com>
+Date:   Tue Feb 21 10:28:39 2023 +0200
+
+    Merge pull request #20 from DimaTkachenko95/Deleted_Hero_from_App.js
+    
+    Now Hero is displayed only on the main page.
+
+[33mcommit 5587eb59467b026ac44695bb395e17f8fcd5c75f[m
+Author: Bohdan Kletskyi <underwater3499@gmail.com>
+Date:   Tue Feb 21 01:00:42 2023 +0200
+
+    corect_card_component
+
+[33mcommit d4af66c07643428226b25d57a4766ecd3e3cf166[m
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Mon Feb 20 23:59:30 2023 +0100
+
+    Now Hero is displayed only on the main page.
+
+[33mcommit 6401a6aea184cc4bebda880b8e1883d0c3e90ed7[m
+Author: Bohdan Kletskyi <underwater3499@gmail.com>
+Date:   Tue Feb 21 00:23:50 2023 +0200
+
+    corect_card
+
+[33mcommit d8b4d55aa52b4594e331e17a2fb1200041e7d8a2[m
+Merge: e437eb3 864b71b
+Author: cloutnba <91879557+cloutnba@users.noreply.github.com>
+Date:   Mon Feb 20 21:35:53 2023 +0200
+
+    Merge pull request #18 from DimaTkachenko95/search-block
+    
+    Search block
+
+[33mcommit 864b71b51d766e74b74c31904542b3aceefc144d[m
+Merge: 79006d5 e437eb3
+Author: cloutnba <91879557+cloutnba@users.noreply.github.com>
+Date:   Mon Feb 20 21:35:44 2023 +0200
+
+    Merge branch 'develop' into search-block
+
+[33mcommit 79006d5d80f8c4d0990e496d061c26a06e1bce05[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Mon Feb 20 21:34:01 2023 +0200
+
+    fixed folders
+
+[33mcommit c545ca072fd9d87c97c8383f515a06347dc9de75[m
+Author: Bohdan Kletskyi <underwater3499@gmail.com>
+Date:   Mon Feb 20 21:25:09 2023 +0200
+
+    item_card
+
+[33mcommit 1a9a2d56a191df9c42f9b63d0dc7517d64318c08[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Mon Feb 20 21:15:19 2023 +0200
+
+    fixed link to products
+
+[33mcommit e437eb38754ef6530efe609c9ec49ffdce332087[m
+Merge: 594fdda cad0071
+Author: Oksana <70908081+OksiFoxy93@users.noreply.github.com>
+Date:   Mon Feb 20 19:59:56 2023 +0200
+
+    Merge pull request #17 from DimaTkachenko95/FP-23_Registration_page
+    
+    Fp 23 registration page
+
+[33mcommit cad0071c9e217270579331e1587accfe78fa3e7a[m
+Merge: e4570c3 594fdda
+Author: nastasia8811 <101885813+nastasia8811@users.noreply.github.com>
+Date:   Mon Feb 20 18:52:58 2023 +0100
+
+    Merge branch 'develop' into FP-23_Registration_page
+
+[33mcommit 9710a508858666b7067ff8a7e22dc506fa07c266[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Mon Feb 20 15:09:20 2023 +0200
+
+    fixed button
+
+[33mcommit 10d18f555dc7b23443b8637dda7efa9146615bef[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Mon Feb 20 14:44:16 2023 +0200
+
+    added search block
+
+[33mcommit e4570c3b45b92cff746f8b8bb10239297105a748[m
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Sun Feb 19 22:55:21 2023 +0100
+
+    FP-23 Registration.jsx  :  Container maxWidth="lg".
+    Breakpoints, fixed showPassword.
+
+[33mcommit 594fddaaa8a8d7f690a11e8a047baeafd3341d08[m
+Merge: 2304ce5 533765e
+Author: cloutnba <91879557+cloutnba@users.noreply.github.com>
+Date:   Sun Feb 19 23:48:18 2023 +0200
+
+    Merge pull request #16 from DimaTkachenko95/search_product
+    
+    Search product
+
+[33mcommit 533765e969c2bdedbbbcaf8ddd1c1a51609259ad[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Sun Feb 19 23:05:12 2023 +0200
+
+    fixed container v3
+
+[33mcommit ab6cad92618d3a387a0e6e0f9991c5bf58aa2938[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Sun Feb 19 22:34:16 2023 +0200
+
+    fixed containers
+
+[33mcommit 53aa16dbb4b2828725893c509f78c3837311e656[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Sun Feb 19 21:54:30 2023 +0200
+
+    fixed containers
+
+[33mcommit b0bae3c65845a486954904ce029d9b150fda21ca[m
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Sun Feb 19 20:36:42 2023 +0100
+
+    FP-23 Registration.jsx  :  Container maxWidth="xl"
+
+[33mcommit 4cf7a5232ee61340ab66967f9417d8c9fe102ced[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Sun Feb 19 21:00:17 2023 +0200
+
+    added search on Enter press
+
+[33mcommit ad96ba154147a4f7bf634082fce0e50fc81fa4a8[m
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Sun Feb 19 18:31:55 2023 +0100
+
+    FP-23 changed breakpoints (max 1800px), required fields changed, capital letters of labels changed
+
+[33mcommit ae979b30e6ea51032f72242dc08cc02d4ac88a23[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Sun Feb 19 16:26:43 2023 +0200
+
+    added container to header, hero, footer, customized theme for container: maxwidth 3840px
+
+[33mcommit 3468cff66fcf07a337bcaeb622ed11d931954576[m[33m ([m[1;31morigin/search_product[m[33m)[m
+Author: toni.kiselevich <toni.kiselevich@gmail.com>
+Date:   Sun Feb 19 15:50:18 2023 +0200
+
+    added new feature for search from header
+
+[33mcommit 253a4a9f0f339c4a8f8febf21d5571d3c30fc66d[m[33m ([m[1;31morigin/FP-23_Registration_page[m[33m)[m
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Sun Feb 19 00:08:04 2023 +0100
+
+    FP-23 final
+
+[33mcommit 8ec12a9cf8dc81c73a3f3c15b49123fbc31ddb4b[m
+Merge: 0e4190a 2304ce5
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Sat Feb 18 23:40:29 2023 +0100
+
+    Merge branch 'develop' into FP-23_Registration_page
+    
+    # Conflicts:
+    #       client/src/App.js
+    #       client/src/components/Form/CustomInput.scss
+    #       client/src/components/Form/FormComponent.scss
+    #       client/src/components/Form/FormikControl.jsx
+    #       client/src/components/Form/ValidationSchema.jsx
+    #       client/src/components/Form/showPassword.jsx
+    #       client/src/pages/Main/Main.jsx
+
+[33mcommit 0e4190a20c0fe01e871a227d8a1c8279f25ebc2a[m
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Sat Feb 18 23:33:54 2023 +0100
+
+    FP-23 rewrote styles, url schema
+
+[33mcommit 5389f159ee880ad1cccf8cfc8526941f8b0bbe88[m
+Author: Melnyk Anastasiia <nastasia8811@gmail.com>
+Date:   Sat Feb 18 23:32:38 2023 +0100
+
+    FP-23 rewrote styles, url schema
+
+[33mcommit 2304ce5109fd250b27f4d0877b00008c3fb279d3[m
+Author: OksanaBashkanets <oksana_bashkanets@pubget.com>
+Date:   Sat Feb 18 23:27:04 2023 +0200
+
+    fixing issues
+
+[33mcommit 62cd6e5fb317eb8833abb6c87144881220d87412[m
+Merge: 8f3c3ca 8f13b4b
+Author: Oksana <70908081+OksiFoxy93@users.noreply.github.com>
+Date:   Sat Feb 18 23:24:16 2023 +0200
+
+    Merge pull request #14 from DimaTkachenko95/bash
+    
+    Move Hero to Main page, remove for other
+
+[33mcommit 8f13b4bffd31e5826317ed522b8d2d6422d6e449[m[33m ([m[1;31morigin/bash[m[33m)[m
+Merge: 7755f1d 06b7e9e
+Author: OksanaBashkanets <oksana_bashkanets@pubget.com>
+Date:   Sat Feb 18 23:19:38 2023 +0200
+
+    Merge branch 'develop-2' of https://github.com/DimaTkachenko95/-fe_4_online_final_project_1 into bash
+
+[33mcommit 06b7e9e98a96df32f261e1aee4404719439a683b[m[33m ([m[1;31morigin/develop-2[m[33m)[m
+Author: OksanaBashkanets <oksana_bashkanets@pubget.com>
+Date:   Sat Feb 18 23:15:08 2023 +0200
+
+    new rename folder pages and components
+
+[33mcommit d8db39229ac58d828c45716c175f38a018cb3165[m
+Author: OksanaBashkanets <oksana_bashkanets@pubget.com>
+Date:   Sat Feb 18 23:12:12 2023 +0200
+
+    temporary rename folder pages and components
+
+[33mcommit 7755f1d80ca18b66157643e6ac019c00688a8153[m
+Author: OksanaBashkanets <oksana_bashkanets@pubget.com>
+Date:   Sat Feb 18 21:22:46 2023 +0200
+
+    Move He

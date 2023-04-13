@@ -1,0 +1,43 @@
+@use './src/styles/mixins';
+@use 'src/styles/variables';
+
+.registration-container {
+  min-width: 345px;
+  position: relative;
+
+  &__wrapper {
+    min-width: 300px;
+
+    &-title {
+      @include mixins.titleStyles;
+      text-align: center;
+      margin-bottom: 43px;
+    }
+  }
+}
+
+@media (min-width: 482px) and (max-width: 995.9px) {
+  .registration-container {
+    min-width: 482px;
+    margin: 0 auto;
+    vertical-align: center;
+
+    &__wrapper {
+      min-width: 400px;
+    }
+  }
+}
+
+@media (min-width: 996px) {
+  .registration-container {
+    min-width: 996px;
+
+    &__wrapper {
+      min-width: 900px;
+
+      &-title {
+        text-align: left;
+      }
+    }
+  }
+}
